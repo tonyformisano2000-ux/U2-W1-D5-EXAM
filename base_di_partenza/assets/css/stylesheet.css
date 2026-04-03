@@ -398,11 +398,17 @@ img {
     font-weight: 800;
   }
 
+  #trendingList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   #trending {
     border-bottom: #a6a4a4 solid 1.5px;
     padding: 20px;
   }
   .trending_article {
+    width: 300px;
     display: flex;
     margin-left: 3px;
     margin-bottom: 20px;
@@ -447,7 +453,10 @@ img {
   }
 
   /* -------------------------DISCOVER SECTION--------------------- */
-
+  .desktopDivision {
+    display: flex;
+    flex-direction: row-reverse;
+  }
   #discover h2 {
     font-weight: 900;
     font-size: 0.73em;
